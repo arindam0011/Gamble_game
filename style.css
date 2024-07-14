@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to left,rgb(179, 248, 115), rgb(248, 248, 143))
+}
+
+.image{
+    width:25%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+ img{
+    width:80%;
+    height:300px;
+    margin-inline: auto;
+}
+.img_header_text{
+    font-size: 14px;
+    color: rgb(226, 89, 157);
+    text-transform: uppercase;
+
+    
+}
+#couponClick{
+    cursor: pointer;
+    background-color: rgb(179, 239, 90);
+    color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}

@@ -1,0 +1,34 @@
+form>*{
+    display: block;
+    margin: 10px;
+    
+}
+
+form>input{
+    width:300px;
+    height: 30px;
+    border-radius: 10px;
+}
+form>button{
+    margin: 10px auto;
+    width: 100px;
+   height: 30px;
+   border-radius: 20px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left,rgb(232, 110, 110), yellow);
+}
+
+form{
+    max-width: 400px;
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;;
+    border-radius: 30px; 
+    font-weight: bold;
+}
